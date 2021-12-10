@@ -69,5 +69,5 @@ SELECT DISTINCT column FROM table
 Example:
 ```sql
 SELECT DISTINCT name FROM color_table;
-SELECT DISTINCT release_year FROM film;
+SELECT DISTINCT(release_year) FROM film;
 ``` 
