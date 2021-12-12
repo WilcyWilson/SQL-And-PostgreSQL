@@ -38,7 +38,7 @@ Databases
 
 - [Setting Up PostgreSQL in Arch Linux](https://github.com/WilcyWilson/Linux-Tips/tree/master/SettingUpPostgreSqlInArchLinux#readme)
 
-- [Using DBeaver as SQL Client Software](https://github.com/WilcyWilson/Linux-Tips/tree/master/SettingUpPostgreSqlInArchLinux#readme)
+- [Using DBeaver as SQL Client Software](https://github.com/WilcyWilson/Linux-Tips/tree/master/SettingUpMySqlInArchLinux#using-dbeaver-to-login-to-the-sql-server-through-gui)
 
 ### SQL Syntax and Queries and What they do?
 
