@@ -8,4 +8,4 @@
 
 ![Local Client](localclient.png)
 
-- Point Local Client to resolve restore issue.
+- Point Local Client to the given path to resolve restore issue.
