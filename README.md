@@ -40,6 +40,8 @@ Databases
 
 - [Using DBeaver as SQL Client Software](https://github.com/WilcyWilson/Linux-Tips/tree/master/SettingUpMySqlInArchLinux#using-dbeaver-to-login-to-the-sql-server-through-gui)
 
+- [Resolving DBeaver Issue](https://github.com/WilcyWilson/Linux-Tips/tree/master/SettingUpMySqlInArchLinux#using-dbeaver-to-login-to-the-sql-server-through-gui)
+
 ### SQL Syntax and Queries and What they do?
 
 #### SELECT ..... FROM .....
