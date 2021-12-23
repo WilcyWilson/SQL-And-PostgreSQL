@@ -1,0 +1,43 @@
+### What are Databases?
+
+- Databases are systems that allow users to store and organize data.
+- They are useful when dealing with large amounts of data
+
+### Who are the typical users that deal with Databases?
+
+Analysts
+- Marketing
+- Business
+- Sales
+  
+Technical
+- Data Scientist
+- Software Engineers
+- Web Developers
+
+### Difference between Excel Spreadsheets and Databases
+
+Spreadsheets
+- Used for One-time analysis
+- Used if we quickly need to chart something out
+- Reasonable data set size
+- Ability for untrained people to work with data
+
+Databases
+- Maintains Data Integrity (Doesn't allow to simply change data just clicking on a table cell)
+- Can handle massive amounts of data
+- Quickly combine different datasets
+- Automate steps for re-use
+- Can support data for websites and applications
+
+### What is SQL?
+
+- SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system.
+
+### Setting up PostgreSQL and using DBeaver as SQL Client Software
+
+- [Setting Up PostgreSQL in Arch Linux](https://github.com/WilcyWilson/Linux-Tips/tree/master/SettingUpPostgreSqlInArchLinux#readme)
+
+- [Using DBeaver as SQL Client Software](https://github.com/WilcyWilson/Linux-Tips/tree/master/SettingUpMySqlInArchLinux#using-dbeaver-to-login-to-the-sql-server-through-gui)
+
+- [Resolving DBeaver Issue](https://github.com/WilcyWilson/SQL-And-PostgreSQL/tree/master/IssuesWithDBeaverRestore#readme)
