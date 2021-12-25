@@ -10,6 +10,8 @@ https://www.postgresql.org/docs/9.5/functions-aggregate.html
 #### Most Common Aggregate Functions
 Note: Aggregate functions calls happen only in the SELECT clause or the HAVING clause.
 
+![abc](https://user-images.githubusercontent.com/40534141/147377983-f15ad1a5-5f21-4b05-8378-73adb14b81b1.png)
+
 #### Special Notes to learn about aggeragate function AVG() and COUNT()
 - AVG() returns a floating point value many decimal places (eg: 2.345353).
 - We can use ROUND() aggregate function to specify precision after the decimal from AVG() function.
@@ -22,6 +24,7 @@ SELECT MAX(repleacement_cost) from film;
 ```sql
 SELECT ROUND(AVG(repleacement_cost),2) from film;
 ```
+
 
 
 
