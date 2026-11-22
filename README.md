@@ -78,6 +78,24 @@
       A column in one table that holds the primary key value of a record in a different table to create a relationship.
 </details>
 
+#### In relational database terminology, what is a join?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      The process of using a foreign key value to locate the corresponding row in another table.
+</details>
+
+#### What is the goal of normalization?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      Refining a database design to ensure that each independent piece of information is stored in exactly one place.
+</details>
+
 </details>
 
 
