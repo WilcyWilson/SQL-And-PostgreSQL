@@ -251,6 +251,124 @@
       Another name for a nonpersistent table, generally created as the output of an SQL query.
 </details>
 
+#### What is the specific purpose of a primary key?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      One or more columns used as a unique identifier for each row in a table.
+</details>
+
+#### What is the specific purpose of a foreign key?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      One or more columns used together to identify a single row in another table.
+</details>
+
+#### What was the original name of the language that eventually became SQL?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      SEQUEL (derived from SQUARE and DSL/Alpha).
+</details>
+
+#### Is SQL technically an acronym for "Structured Query Language"?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      No; although commonly used that way, the official name is simply the letters S. Q. L.
+</details>
+
+#### What is the defining characteristic of a nonprocedural language like SQL?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      You define the desired results, but the process (mechanism) of how to generate them is left to an external agent.
+</details>
+
+#### In a database engine, what component decides the most efficient execution path for a query?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      The optimizer.
+</details>
+
+#### What is the purpose of SQL schema statements (DDL) Data Definition Language?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      To define and manage the data structures (e.g., tables) stored in the database.
+</details>
+
+#### What is the purpose of SQL data statements (DML)?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      To manipulate (retrieve or modify) the data within previously defined structures.
+</details>
+
+#### What is the purpose of SQL transaction statements?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      To begin, end, and roll back transactions.
+</details>
+
+#### What is metadata in the context of a database?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      Data about the database itself, such as the names of tables and columns.
+</details>
+
+#### Where does a database store metadata?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      In the data dictionary (a special set of internal tables).
+</details>
+
+#### How can a developer dynamically determine the current set of columns in a table at runtime?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      By using a SELECT statement to query the data dictionary.
+      select column_name from information_schema.columns;
+</details>
+
+#### What is the standard syntax for multi-line comments in most SQL implementations?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      Text enclosed between /* and */.
+</details>
+
 </details>
 
 
