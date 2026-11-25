@@ -369,6 +369,87 @@
       Text enclosed between /* and */.
 </details>
 
+#### In a standard SQL query, what is the specific role of the FROM clause?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      To determine which table or tables will be used as the data source.
+</details>
+
+#### In a standard SQL query, what is the specific role of the WHERE clause?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      To filter out data rows that do not meet specific conditions.
+</details>
+
+#### What is the architectural result of an SQL query?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      A result set (which is effectively a nonpersistent table).
+</details>
+
+#### What happens if you execute a DELETE or UPDATE statement without a WHERE clause?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+      The operation will affect every row in the table.
+</details>
+
+#### Write a MySQL statement to create a table corp with a SMALLINT ID (Primary Key) and a VARCHAR(30) name.
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    CREATE TABLE corp (
+    corp_id SMALLINT,
+    name VARCHAR(30),
+    PRIMARY KEY (corp_id)
+    );
+</details>
+
+#### Write a MySQL statement to modify the name column of a product to 'Gold' where the product_id is 5.
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    UPDATE product
+    SET name = 'Gold'
+    WHERE product_id = 5;
+</details>
+
+#### What is the standard toolkit used to execute SQL statements from a Java application?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    JDBC (Java Database Connectivity).
+</details>
+
+#### What is the standard toolkit used to execute SQL statements from a C# (.NET) application?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    ADO.NET.
+
+  <img width="930" height="80" alt="image" src="https://github.com/user-attachments/assets/5a02b78e-6401-4297-bffc-b688681aa4b6" />
+
+</details>
+
 </details>
 
 
