@@ -450,6 +450,105 @@
 
 </details>
 
+#### Why do database engines provide optimizer hints?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    To allow developers to influence or override the optimizer's choice of execution path (e.g., forcing a specific index).
+</details>
+
+#### Write the command to log into the mysql command-line tool as the user root.
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    mysql -u root -p;
+</details>
+
+#### Write the command to log into the mysql command-line tool as root while immediately selecting the sakila database.
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    mysql -u root -p sakila;
+</details>
+
+#### In the mysql command-line tool, what command displays a list of all available databases?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    SHOW DATABASES;
+</details>
+
+#### In the mysql command-line tool, what command sets the active database for subsequent queries?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    USE [database_name];
+</details>
+
+#### Write a MySQL query to retrieve the current date and time.
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    SELECT now();
+</details>
+
+#### What is the purpose of the dual table in MySQL?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    To provide compatibility with database engines (like Oracle) that require a FROM clause even when calling functions.
+</details>
+
+#### How do you execute an external SQL script file from within the mysql command-line tool?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    Use the SOURCE command followed by the file path (e.g., SOURCE C:\temp\script.sql;).
+</details>
+
+#### What is Apache Drill?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    An open-source query engine that allows users to write SQL queries to access data stored across diverse systems like Hadoop, NoSQL, JSON, and CSV.
+</details>
+
+#### What are the two standard commands used to close a mysql command-line session?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    quit; and exit;
+</details>
+
+#### When installing the Sakila sample database, which file must be sourced first: the schema file or the data file?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    The schema file (to create the table structures before populating them).
+</details>
+
 </details>
 
 
