@@ -549,6 +549,142 @@
     The schema file (to create the table structures before populating them).
 </details>
 
+#### Why is it beneficial to write SQL statements that comply with the ANSI SQL standard?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    It ensures the statements can run on multiple platforms (Oracle, DB2, SQL Server, MySQL) with little or no modification.
+</details>
+
+#### Identify three examples of modern distributed/scalable data technologies that can still be accessed via SQL.
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    I1. Hadoop
+    2. Spark
+    3. NoSQL/NewSQL.
+</details>
+
+#### What is the effect of providing a database name at the end of the mysql login command?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    It establishes a session and specifies the database, saving the user from having to type the USE command.
+</details>
+
+#### Besides the number of rows returned, what performance metric does the mysql command-line tool display after every statement?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    The execution time (e.g., 0.01 sec).
+</details>
+
+#### What is the primary storage difference between char and varchar columns?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    char is fixed-length and right-padded with spaces; varchar is variable-length and not padded.
+</details>
+
+#### What is the maximum length (in bytes) of a char column in MySQL?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    255 bytes.
+</details>
+
+#### What is the maximum length (in bytes) of a varchar column in MySQL?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    65,535 bytes.
+</details>
+
+#### When is it architecturally preferable to use char instead of varchar?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    When the data strings are always the same length (e.g., state abbreviations or fixed-length codes).
+</details>
+
+#### What MySQL command lists all supported character sets and their maxlen?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    SHOW CHARACTER SET;
+</details>
+
+#### How do you identify a multibyte character set in the SHOW CHARACTER SET output?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    The maxlen value is greater than 1.
+</details>
+
+#### What is the default character set for MySQL version 8?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    utf8mb4
+</details>
+
+#### Write a code snippet to define a varchar(20) column that specifically uses the latin1 character set.
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    varchar(20) CHARACTER SET latin1
+</details>
+
+#### Which MySQL text type has a maximum storage capacity of approximately 4 gigabytes?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    longtext
+</details>
+
+#### What happens to trailing spaces when data is loaded into a MySQL text column?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+  
+    They are not removed (preserved).
+
+    What is a Trailing Space?
+    A trailing space refers to any empty whitespace character (such as a standard space or a tab) that is located at the very end of a string of text, after the last visible character.
+    Example: In the string "Database ", the three blank spaces immediately following the letter "e" are trailing spaces.
+    The MySQL Context
+    The image specifically asks about how the MySQL database system handles these invisible characters:
+    Behavior in TEXT columns: When you insert a string of text that ends with trailing spaces into a MySQL TEXT column, the database does not automatically delete (or "trim") them.
+    Preservation: As the image states, they are "not removed (preserved)," meaning MySQL stores the data exactly as it was provided, keeping those extra spaces intact at the end of the entry.
+</details>
+
 </details>
 
 
