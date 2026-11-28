@@ -685,6 +685,124 @@
     Preservation: As the image states, they are "not removed (preserved)," meaning MySQL stores the data exactly as it was provided, keeping those extra spaces intact at the end of the entry.
 </details>
 
+#### By default, how many bytes of a text column does MySQL use for sorting or grouping?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+    
+    The first 1,024 bytes.
+
+    The Core Concept
+    When you write a query that uses an ORDER BY or GROUP BY clause on a TEXT or BLOB column, MySQL does not evaluate the entire string. As the image states, it truncates the data used for the operation, looking only at the first 1,024 bytes of each entry by default.
+</details>
+
+#### How are Boolean values typically implemented in MySQL?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+    
+    As a tinyint, where 0 represents false and 1 represents true..
+</details>
+
+#### What is the architectural effect of the unsigned attribute on an integer column?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+    
+    It prevents negative numbers and shifts the range to start at 0, doubling the maximum positive value.
+</details>
+
+#### How many bytes of storage are allocated for a tinyint vs. a bigint?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+    
+    tinyint uses 1 byte; bigint uses 8 bytes.
+</details>
+
+#### In the floating-point definition float(p, s), what do p and s represent?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+    
+    p is precision (total digits); s is scale (digits to the right of the decimal point).
+</details>
+
+#### In MySQL, what happens if a value's fractional part exceeds the scale of a float(p, s) column?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+    
+    The value is rounded to fit the defined scale.
+</details>
+
+#### Why would attempting to store 178.375 in a float(4,2) column result in an error?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+    
+    The value (178) exceeds the allowed precision for the integer portion (only 2 digits allowed if total is 4 and scale is 2).
+
+    The image asks why attempting to store the value 178.375 into a FLOAT(4,2) column results in an error. Let's apply the rule:
+    The Constraint: You defined FLOAT(4,2).
+    Total digits allowed: 4
+    Decimal digits allowed: 2
+    Integer digits allowed: 4 - 2 = 2
+    The maximum possible value this column can hold is 99.99.
+</details>
+
+#### What is the unsigned range of a smallint column?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+    
+    0 to 65,535.
+</details>
+
+#### What is the signed range of a tinyint column?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+    
+    -128 to 127.
+</details>
+
+#### Write a MySQL command to create a database named global_sales with a default character set of utf8mb4.
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+    
+    CREATE DATABASE global_sales CHARACTER SET utf8mb4;
+</details>
+
+#### What does a NULL value signify in a relational database?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+    
+    The absence of a value, signifying data that is unknown, not applicable, or an empty set.
+</details>
+
+#### In the output of a DESCRIBE command, which column indicates if a field is a primary key?
+<details>
+  <summary>
+    Click to reveal answer.
+  </summary>
+    
+    The Key column, which will contain the value PRI.
+</details>
+
 </details>
 
 
